@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/public/style.css" />
+
+    <title>Gamer Zone</title>
+  </head>
+  <body>
+      <!-- Header -->
+    <header class="bg-blue-900 h-auto flex items-center justify-center">
+      <nav class="container bg-blue-500 h-auto w-4/5 my-3 rounded">
+        <ul class="flex justify-evenly mx-2 my-2 flex-wrap">
+          <a href="./index.html">
+              <li class="hover:bg-orange-500 hover:bg-opacity-75 text-orange-100 font-bold rounded px-3 py-1 text-center">Home Page</li>
+          </a>
+          <li class="hover:bg-orange-500 hover:bg-opacity-75 text-orange-100 font-bold rounded px-3 py-1 text-center">Old School</li>
+          <li class="hover:bg-orange-500 hover:bg-opacity-75 text-orange-100 font-bold rounded px-3 py-1 text-center">Card</li>
+          <li class="hover:bg-orange-500 hover:bg-opacity-75 text-orange-100 font-bold rounded px-3 py-1 text-center">Mobile</li>
+          <li class="hover:bg-orange-500 hover:bg-opacity-75 text-orange-100 font-bold rounded px-3 py-1 text-center">FAQ</li>
+        </ul>
+      </nav>
+    
+    </header>
+
+    <!-- main section -->
+    <section class="flex">
+        <!-- side bar -->
+        <div class="w-60 h-screen bg-blue-500">
+
+        </div>  
+
+        <!-- Main area -->
+        <div class="w-full bg-blue-100 flex flex-col items-center">
+
+            <div class="title my-3 text-3xl font-extrabold text-orange-500">Flappy Bird</div>
+           
+            <!-- Flappy Bird Game -->
+            <div class="game-container h-x730 w-x500 absolute top-52 overflow-hidden">
+              <div class="sky bg-fb-game-background w-x500 h-x580 absolute">
+                <div class="bird bg-flappy-bird absolute h-x45 w-x60">
+
+                </div>
+              </div>
+              <div class="ground z-1 bg-bottom-background w-x500 h-x150 absolute top-x580">
+
+              </div>
+            </div>
+
+            
+            <div class="flex m-2 max-w-7xl font-bold text-orange-50">
+                <div class="play bg-green-500 cursor-pointer px-4 py-2 mr-2 rounded">Play</div>
+                
+                <div class="jump bg-blue-500 cursor-pointer px-4 py-2 ml-2 rounded">Jump</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <footer class="text-orange-100 h-40 w-full bg-blue-900 flex flex-col items-center justify-center">
+        <div>
+            All games made by yours truly
+        </div>
+        <div class="font-bold">
+            Copyright &copy; <script type="text/javascript">
+                document.write("2021 - "+ new Date().getFullYear());
+                </script> Michael Morrison
+        </div>
+
+    </footer>
+
+    <script src="./Mobile/flappybird.js"></script>
+  </body>
+</html>
