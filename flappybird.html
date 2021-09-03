@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/public/style.css" />
+
+    <title>Gamer Zone</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-blue-900 h-auto flex items-center justify-center">
+      <nav class="container bg-blue-500 h-auto w-4/5 my-3 rounded">
+        <ul class="flex justify-evenly mx-2 my-2 flex-wrap">
+          <a href="./index.html">
+            <li
+              class="
+                hover:bg-orange-500 hover:bg-opacity-75
+                text-orange-100
+                font-bold
+                rounded
+                px-3
+                py-1
+                text-center
+              "
+            >
+              Home Page
+            </li>
+          </a>
+          <a href="./oldschool.html">
+              <li
+                class="
+                  hover:bg-orange-500 hover:bg-opacity-75
+                  text-orange-100
+                  font-bold
+                  rounded
+                  px-3
+                  py-1
+                  text-center
+                "
+              >
+                Old School
+              </li>
+          </a>
+          <a href="./card.html">
+              <li
+                class="
+                  hover:bg-orange-500 hover:bg-opacity-75
+                  text-orange-100
+                  font-bold
+                  rounded
+                  px-3
+                  py-1
+                  text-center
+                "
+              >
+                Card
+              </li>
+          </a>
+          <a href="./mobile.html">
+            <li
+              class="
+                hover:bg-orange-500 hover:bg-opacity-75
+                text-orange-100
+                font-bold
+                rounded
+                px-3
+                py-1
+                text-center
+              "
+            >
+              Mobile
+            </li>
+          </a>
+          <a href="./faq.html">
+              <li
+                class="
+                  hover:bg-orange-500 hover:bg-opacity-75
+                  text-orange-100
+                  font-bold
+                  rounded
+                  px-3
+                  py-1
+                  text-center
+                "
+              >
+                FAQ
+              </li>
+          </a>
+          <a href="./aboutus.html">
+              <li
+                class="
+                  hover:bg-orange-500 hover:bg-opacity-75
+                  text-orange-100
+                  font-bold
+                  rounded
+                  px-3
+                  py-1
+                  text-center
+                "
+              >
+                About
+              </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main section -->
+    <section class="flex bg-orange-300">
+      <!-- Main area -->
+      <div
+        class="container h-auto mx-auto bg-blue-100 flex flex-col items-center"
+      >
+        <div class="title my-3 text-3xl my-4 font-extrabold text-orange-500">
+          Flappy Bird
+        </div>
+        <div class="title text-lg font-bold mb-2 text-orange-500">
+          Press 'w' to jump. <a href="./flappybird.html" class="transform duration-500 hover:bg-blue-300 rounded p-1">Refresh to restart.</a>
+        </div>
+
+        <!-- Flappy Bird Game -->
+        <div
+          class="
+            game-container
+            h-x730
+            w-x500
+            sm:top-52
+            overflow-hidden
+            transform-gpu
+          "
+        >
+          <div class="sky bg-fb-game-background w-x500 h-x580 absolute">
+            <div class="bird bg-flappy-bird absolute h-x45 w-x60"></div>
+          </div>
+          <div
+            class="
+              ground
+              z-1
+              bg-bottom-background
+              w-x500
+              h-x150
+              absolute
+              top-x580
+            "
+          ></div>
+        </div>
+
+        <div class="flex m-4 max-w-7xl font-bold text-orange-50">
+          <div class="play bg-green-500 cursor-pointer px-4 py-2 mr-4 rounded">
+            Play
+          </div>
+          <div class="jump bg-blue-500 cursor-pointer px-4 py-2 ml-4 rounded">
+            Jump
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer
+      class="
+        text-orange-100
+        h-40
+        w-full
+        bg-blue-900
+        flex flex-col
+        items-center
+        justify-center
+      "
+    >
+      <div>All games made by yours truly</div>
+      <div class="font-bold">
+        Copyright &copy;
+        <script type="text/javascript">
+          document.write("2021 - " + new Date().getFullYear());
+        </script>
+        Michael Morrison
+      </div>
+    </footer>
+
+    <script src="./Mobile/flappybird.js"></script>
+  </body>
+</html>
